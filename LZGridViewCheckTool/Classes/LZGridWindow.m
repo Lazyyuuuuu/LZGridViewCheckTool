@@ -46,13 +46,13 @@
 
 - (void)show {
     UIWindow *topWindow = [UIApplication sharedApplication].keyWindow;
-    [topWindow addSubview:self.gridView];
+    [topWindow addSubview:self];
     self.hidden = NO;
 }
 
 - (void)hide {
     self.hidden = YES;
-    [self.gridView removeFromSuperview];
+    [self removeFromSuperview];
 }
 
 - (void)setVMarginWidthDict:(NSDictionary *)dict {
