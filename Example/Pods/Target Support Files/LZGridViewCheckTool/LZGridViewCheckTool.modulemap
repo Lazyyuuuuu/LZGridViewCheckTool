@@ -1,0 +1,6 @@
+framework module LZGridViewCheckTool {
+  umbrella header "LZGridViewCheckTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

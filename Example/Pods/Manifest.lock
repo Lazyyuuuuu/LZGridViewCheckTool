@@ -1,0 +1,16 @@
+PODS:
+  - LZGridViewCheckTool (0.1.0)
+
+DEPENDENCIES:
+  - LZGridViewCheckTool (from `../`)
+
+EXTERNAL SOURCES:
+  LZGridViewCheckTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LZGridViewCheckTool: 93bbc9bd9a2b85f30936d06b8f1ac2a25c0220c7
+
+PODFILE CHECKSUM: a361592937f4d9da1624b9363c9d700a17a0355b
+
+COCOAPODS: 1.9.1

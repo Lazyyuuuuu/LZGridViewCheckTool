@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A10FF85F4D60F21A8A0AF041F6ECCD9 /* LZGridWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AEDA004301C29AA6A353A2C78A0176 /* LZGridWindow.m */; };
+		32658CA21BD88E074A26E3171E77CCEC /* LZGridWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 127965517004853CD539B41234A6A469 /* LZGridWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40C1363C9D9AB06CF044BAA56215318E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		511FBBF975264673C43DC745022BEBC1 /* LZGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5904207013C178F2593C8DFE8B783444 /* LZGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C576074E2D198318E7172073D609899 /* Pods-LZGridViewCheckTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC88D1D9538BC4DEC2ED1582E960F897 /* Pods-LZGridViewCheckTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64094FE508BBCBF24E10885EE9C214C1 /* Pods-LZGridViewCheckTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0E7A665EE9B51A1E6C3CB8BEE165C7 /* Pods-LZGridViewCheckTool_Example-dummy.m */; };
+		70C5D1CF69B675369D3AFDCE88177325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		792F633377FBF2777AF98F2828E0671C /* LZGridViewCheckTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B04B5C7B7F56B5BBACEB99D0E14EA9ED /* LZGridViewCheckTool-dummy.m */; };
+		A2B3FC6D7D4D19094975098FEEBB316A /* Pods-LZGridViewCheckTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37ED92B32CCB1A8452EE1AD5F51B71B3 /* Pods-LZGridViewCheckTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C647019245A79BB73CFF3664CA5D9C /* LZGridViewCheckTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 755FD09E571E7ECEA63E252E1B9E09FD /* LZGridViewCheckTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCBB301634BB91C943660DB757AF1661 /* Pods-LZGridViewCheckTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FE0737A883A48B39043E6AB99924C5 /* Pods-LZGridViewCheckTool_Tests-dummy.m */; };
+		CF16C96FE27F679B118FF761B134E781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E8A2F8466B8DF7C1BF4B05670FDF2577 /* LZGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5F3E775A758CE42178EA67A9AE7F33 /* LZGridView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C05C7F381F4896AEAFDC3F6CA46C151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24CD30093C0C133572CC0DAC6877C6B8;
+			remoteInfo = "Pods-LZGridViewCheckTool_Example";
+		};
+		7606649414C0D8352435A7A5B3A95D85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F07B22A62E059E0768E1524B9E858B4;
+			remoteInfo = LZGridViewCheckTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0102AF6B007BB3B72C74D209D227FDAA /* Pods-LZGridViewCheckTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZGridViewCheckTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		077DDF6562CBF6357E65040937FA0BAB /* LZGridViewCheckTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LZGridViewCheckTool.modulemap; sourceTree = "<group>"; };
+		0D3C51FF2249CC35AA3F0D0F433B3937 /* LZGridViewCheckTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LZGridViewCheckTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		127965517004853CD539B41234A6A469 /* LZGridWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LZGridWindow.h; path = LZGridViewCheckTool/Classes/LZGridWindow.h; sourceTree = "<group>"; };
+		1DE07315C988133713DBB9E2B21E600E /* LZGridViewCheckTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LZGridViewCheckTool.framework; path = LZGridViewCheckTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		242C2F590E5BEB86F75A966323FFE96A /* LZGridViewCheckTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LZGridViewCheckTool.debug.xcconfig; sourceTree = "<group>"; };
+		26AEDA004301C29AA6A353A2C78A0176 /* LZGridWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LZGridWindow.m; path = LZGridViewCheckTool/Classes/LZGridWindow.m; sourceTree = "<group>"; };
+		271DF0F457F5C3B2F3E92B9C60D6E02E /* Pods-LZGridViewCheckTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LZGridViewCheckTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2AC78DF8897F06BBA0DCEC25BB999D35 /* Pods-LZGridViewCheckTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZGridViewCheckTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37ED92B32CCB1A8452EE1AD5F51B71B3 /* Pods-LZGridViewCheckTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LZGridViewCheckTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3AB784788CC18735EBEA47689DAD2A18 /* LZGridViewCheckTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZGridViewCheckTool-prefix.pch"; sourceTree = "<group>"; };
+		3C0E7A665EE9B51A1E6C3CB8BEE165C7 /* Pods-LZGridViewCheckTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZGridViewCheckTool_Example-dummy.m"; sourceTree = "<group>"; };
+		41E4E73AA22950047501A6049314E908 /* Pods-LZGridViewCheckTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LZGridViewCheckTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5583AFF0817093F23999DCADF1916F9D /* Pods-LZGridViewCheckTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZGridViewCheckTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5904207013C178F2593C8DFE8B783444 /* LZGridView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LZGridView.h; path = LZGridViewCheckTool/Classes/LZGridView.h; sourceTree = "<group>"; };
+		597E9A1CB32C7A50264A6269EAD222E9 /* Pods-LZGridViewCheckTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZGridViewCheckTool_Example-Info.plist"; sourceTree = "<group>"; };
+		6333583BF8B32B9CBD0DDEEB5707A6DC /* Pods-LZGridViewCheckTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZGridViewCheckTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6838214FFE4F4BE5125802A923FD9EB6 /* Pods-LZGridViewCheckTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZGridViewCheckTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B22A2D6DF334CED2F941FF077DF19C4 /* Pods_LZGridViewCheckTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZGridViewCheckTool_Tests.framework; path = "Pods-LZGridViewCheckTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		755FD09E571E7ECEA63E252E1B9E09FD /* LZGridViewCheckTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LZGridViewCheckTool-umbrella.h"; sourceTree = "<group>"; };
+		8C6551DDC0884D679898B721D646DEF6 /* LZGridViewCheckTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LZGridViewCheckTool-Info.plist"; sourceTree = "<group>"; };
+		95FE0737A883A48B39043E6AB99924C5 /* Pods-LZGridViewCheckTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZGridViewCheckTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E281A431CF5FC276FE7600E45CC1670 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AC0D5BB8C83738560D7646606109254D /* Pods-LZGridViewCheckTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZGridViewCheckTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		AEC4EF45F983FFE4EE644F9851D87BF2 /* Pods-LZGridViewCheckTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZGridViewCheckTool_Tests.modulemap"; sourceTree = "<group>"; };
+		B04B5C7B7F56B5BBACEB99D0E14EA9ED /* LZGridViewCheckTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LZGridViewCheckTool-dummy.m"; sourceTree = "<group>"; };
+		C6C92F8D0DAB253A63BC5A168423D29B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CBF151710E73C23D4FB1C7F7FFED697D /* Pods-LZGridViewCheckTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZGridViewCheckTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D8C3A662FD8673FB85545C87DC28B194 /* Pods_LZGridViewCheckTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LZGridViewCheckTool_Example.framework; path = "Pods-LZGridViewCheckTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC88D1D9538BC4DEC2ED1582E960F897 /* Pods-LZGridViewCheckTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LZGridViewCheckTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		DF5F3E775A758CE42178EA67A9AE7F33 /* LZGridView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LZGridView.m; path = LZGridViewCheckTool/Classes/LZGridView.m; sourceTree = "<group>"; };
+		E5BF9FDE4B75D0F2237D93CA23F4B3D8 /* Pods-LZGridViewCheckTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LZGridViewCheckTool_Example.modulemap"; sourceTree = "<group>"; };
+		E656881FD1F41C72EEF060865AD71262 /* LZGridViewCheckTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LZGridViewCheckTool.release.xcconfig; sourceTree = "<group>"; };
+		F7A9EB29FA9DD3FEE09585BD1D14BE57 /* Pods-LZGridViewCheckTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZGridViewCheckTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C5817A39DB6316D89BE212681EA0947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C5D1CF69B675369D3AFDCE88177325 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D99F3053A26D879A06AC4E396A0C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF16C96FE27F679B118FF761B134E781 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A692DFC39F0E8F65CCC7F7C1DF7FF066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C1363C9D9AB06CF044BAA56215318E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2297B571853E617ECAC02A578D5A3328 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31E8AF590CF0EBDA0EB2FBBB9B8D8F86 /* Pods-LZGridViewCheckTool_Example */,
+				BDA780E46D26B70F3576F035DFB05CE9 /* Pods-LZGridViewCheckTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		31E8AF590CF0EBDA0EB2FBBB9B8D8F86 /* Pods-LZGridViewCheckTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E5BF9FDE4B75D0F2237D93CA23F4B3D8 /* Pods-LZGridViewCheckTool_Example.modulemap */,
+				41E4E73AA22950047501A6049314E908 /* Pods-LZGridViewCheckTool_Example-acknowledgements.markdown */,
+				2AC78DF8897F06BBA0DCEC25BB999D35 /* Pods-LZGridViewCheckTool_Example-acknowledgements.plist */,
+				3C0E7A665EE9B51A1E6C3CB8BEE165C7 /* Pods-LZGridViewCheckTool_Example-dummy.m */,
+				6333583BF8B32B9CBD0DDEEB5707A6DC /* Pods-LZGridViewCheckTool_Example-frameworks.sh */,
+				597E9A1CB32C7A50264A6269EAD222E9 /* Pods-LZGridViewCheckTool_Example-Info.plist */,
+				DC88D1D9538BC4DEC2ED1582E960F897 /* Pods-LZGridViewCheckTool_Example-umbrella.h */,
+				5583AFF0817093F23999DCADF1916F9D /* Pods-LZGridViewCheckTool_Example.debug.xcconfig */,
+				F7A9EB29FA9DD3FEE09585BD1D14BE57 /* Pods-LZGridViewCheckTool_Example.release.xcconfig */,
+			);
+			name = "Pods-LZGridViewCheckTool_Example";
+			path = "Target Support Files/Pods-LZGridViewCheckTool_Example";
+			sourceTree = "<group>";
+		};
+		5493EC613CC281EDF0A388DD4A970E53 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F34F7CB9058F1C5E56327EE4A26AF42B /* LZGridViewCheckTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		631E9C374500C72841D9BB7FDB2B7776 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C6C92F8D0DAB253A63BC5A168423D29B /* LICENSE */,
+				0D3C51FF2249CC35AA3F0D0F433B3937 /* LZGridViewCheckTool.podspec */,
+				9E281A431CF5FC276FE7600E45CC1670 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		83EBA64A4DEA4885D10B8E26092A4952 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				077DDF6562CBF6357E65040937FA0BAB /* LZGridViewCheckTool.modulemap */,
+				B04B5C7B7F56B5BBACEB99D0E14EA9ED /* LZGridViewCheckTool-dummy.m */,
+				8C6551DDC0884D679898B721D646DEF6 /* LZGridViewCheckTool-Info.plist */,
+				3AB784788CC18735EBEA47689DAD2A18 /* LZGridViewCheckTool-prefix.pch */,
+				755FD09E571E7ECEA63E252E1B9E09FD /* LZGridViewCheckTool-umbrella.h */,
+				242C2F590E5BEB86F75A966323FFE96A /* LZGridViewCheckTool.debug.xcconfig */,
+				E656881FD1F41C72EEF060865AD71262 /* LZGridViewCheckTool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LZGridViewCheckTool";
+			sourceTree = "<group>";
+		};
+		BDA780E46D26B70F3576F035DFB05CE9 /* Pods-LZGridViewCheckTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AEC4EF45F983FFE4EE644F9851D87BF2 /* Pods-LZGridViewCheckTool_Tests.modulemap */,
+				271DF0F457F5C3B2F3E92B9C60D6E02E /* Pods-LZGridViewCheckTool_Tests-acknowledgements.markdown */,
+				0102AF6B007BB3B72C74D209D227FDAA /* Pods-LZGridViewCheckTool_Tests-acknowledgements.plist */,
+				95FE0737A883A48B39043E6AB99924C5 /* Pods-LZGridViewCheckTool_Tests-dummy.m */,
+				AC0D5BB8C83738560D7646606109254D /* Pods-LZGridViewCheckTool_Tests-Info.plist */,
+				37ED92B32CCB1A8452EE1AD5F51B71B3 /* Pods-LZGridViewCheckTool_Tests-umbrella.h */,
+				6838214FFE4F4BE5125802A923FD9EB6 /* Pods-LZGridViewCheckTool_Tests.debug.xcconfig */,
+				CBF151710E73C23D4FB1C7F7FFED697D /* Pods-LZGridViewCheckTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-LZGridViewCheckTool_Tests";
+			path = "Target Support Files/Pods-LZGridViewCheckTool_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CBC3FE7A63F761532C1762C6E55988F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DE07315C988133713DBB9E2B21E600E /* LZGridViewCheckTool.framework */,
+				D8C3A662FD8673FB85545C87DC28B194 /* Pods_LZGridViewCheckTool_Example.framework */,
+				6B22A2D6DF334CED2F941FF077DF19C4 /* Pods_LZGridViewCheckTool_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5493EC613CC281EDF0A388DD4A970E53 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CBC3FE7A63F761532C1762C6E55988F3 /* Products */,
+				2297B571853E617ECAC02A578D5A3328 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F34F7CB9058F1C5E56327EE4A26AF42B /* LZGridViewCheckTool */ = {
+			isa = PBXGroup;
+			children = (
+				5904207013C178F2593C8DFE8B783444 /* LZGridView.h */,
+				DF5F3E775A758CE42178EA67A9AE7F33 /* LZGridView.m */,
+				127965517004853CD539B41234A6A469 /* LZGridWindow.h */,
+				26AEDA004301C29AA6A353A2C78A0176 /* LZGridWindow.m */,
+				631E9C374500C72841D9BB7FDB2B7776 /* Pod */,
+				83EBA64A4DEA4885D10B8E26092A4952 /* Support Files */,
+			);
+			name = LZGridViewCheckTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B5317A97E5DAF09E20D15596318F27F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511FBBF975264673C43DC745022BEBC1 /* LZGridView.h in Headers */,
+				C2C647019245A79BB73CFF3664CA5D9C /* LZGridViewCheckTool-umbrella.h in Headers */,
+				32658CA21BD88E074A26E3171E77CCEC /* LZGridWindow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82C777AC63265E2784F45C3BE182F6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B3FC6D7D4D19094975098FEEBB316A /* Pods-LZGridViewCheckTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46A63130CBFB44682F3C0C99A999D13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C576074E2D198318E7172073D609899 /* Pods-LZGridViewCheckTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24CD30093C0C133572CC0DAC6877C6B8 /* Pods-LZGridViewCheckTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E32E51F13A21DA81E36C8388AF6238 /* Build configuration list for PBXNativeTarget "Pods-LZGridViewCheckTool_Example" */;
+			buildPhases = (
+				E46A63130CBFB44682F3C0C99A999D13 /* Headers */,
+				83D867B71C65F7502D18749932B72CCD /* Sources */,
+				A692DFC39F0E8F65CCC7F7C1DF7FF066 /* Frameworks */,
+				B4885C781B516ACB545F1A69E736C26E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55935236BC7CCB2A44E453FB2ADA042A /* PBXTargetDependency */,
+			);
+			name = "Pods-LZGridViewCheckTool_Example";
+			productName = "Pods-LZGridViewCheckTool_Example";
+			productReference = D8C3A662FD8673FB85545C87DC28B194 /* Pods_LZGridViewCheckTool_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33731D7BBDD0E351392599E0F9E91511 /* Pods-LZGridViewCheckTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6A45FB26A010D23E8DE65F9CA0DB71 /* Build configuration list for PBXNativeTarget "Pods-LZGridViewCheckTool_Tests" */;
+			buildPhases = (
+				D82C777AC63265E2784F45C3BE182F6E /* Headers */,
+				55CA85FF79443390303670C377D6D37F /* Sources */,
+				5C5817A39DB6316D89BE212681EA0947 /* Frameworks */,
+				FF14D9FA709B73D6D8BE6DD93F91D1A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23726AFE01EFC1DE2A20D4A72121341A /* PBXTargetDependency */,
+			);
+			name = "Pods-LZGridViewCheckTool_Tests";
+			productName = "Pods-LZGridViewCheckTool_Tests";
+			productReference = 6B22A2D6DF334CED2F941FF077DF19C4 /* Pods_LZGridViewCheckTool_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F07B22A62E059E0768E1524B9E858B4 /* LZGridViewCheckTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7530B581C7B95B0369A18ED0637A7DB /* Build configuration list for PBXNativeTarget "LZGridViewCheckTool" */;
+			buildPhases = (
+				B5317A97E5DAF09E20D15596318F27F9 /* Headers */,
+				DC07443B89C4BAF3514F277AC4722D7C /* Sources */,
+				78D99F3053A26D879A06AC4E396A0C28 /* Frameworks */,
+				458E1D46CDF37C3C39458B251E9A7628 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LZGridViewCheckTool;
+			productName = LZGridViewCheckTool;
+			productReference = 1DE07315C988133713DBB9E2B21E600E /* LZGridViewCheckTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CBC3FE7A63F761532C1762C6E55988F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F07B22A62E059E0768E1524B9E858B4 /* LZGridViewCheckTool */,
+				24CD30093C0C133572CC0DAC6877C6B8 /* Pods-LZGridViewCheckTool_Example */,
+				33731D7BBDD0E351392599E0F9E91511 /* Pods-LZGridViewCheckTool_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		458E1D46CDF37C3C39458B251E9A7628 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4885C781B516ACB545F1A69E736C26E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF14D9FA709B73D6D8BE6DD93F91D1A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55CA85FF79443390303670C377D6D37F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBB301634BB91C943660DB757AF1661 /* Pods-LZGridViewCheckTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D867B71C65F7502D18749932B72CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64094FE508BBCBF24E10885EE9C214C1 /* Pods-LZGridViewCheckTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC07443B89C4BAF3514F277AC4722D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A2F8466B8DF7C1BF4B05670FDF2577 /* LZGridView.m in Sources */,
+				792F633377FBF2777AF98F2828E0671C /* LZGridViewCheckTool-dummy.m in Sources */,
+				2A10FF85F4D60F21A8A0AF041F6ECCD9 /* LZGridWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23726AFE01EFC1DE2A20D4A72121341A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LZGridViewCheckTool_Example";
+			target = 24CD30093C0C133572CC0DAC6877C6B8 /* Pods-LZGridViewCheckTool_Example */;
+			targetProxy = 1C05C7F381F4896AEAFDC3F6CA46C151 /* PBXContainerItemProxy */;
+		};
+		55935236BC7CCB2A44E453FB2ADA042A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LZGridViewCheckTool;
+			target = 5F07B22A62E059E0768E1524B9E858B4 /* LZGridViewCheckTool */;
+			targetProxy = 7606649414C0D8352435A7A5B3A95D85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E143F07E9C35E0E6511F9F51B0986A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5583AFF0817093F23999DCADF1916F9D /* Pods-LZGridViewCheckTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LZGridViewCheckTool_Example/Pods-LZGridViewCheckTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LZGridViewCheckTool_Example/Pods-LZGridViewCheckTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		11F573B91C160ACD4A9A5EFF0D8B8E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242C2F590E5BEB86F75A966323FFE96A /* LZGridViewCheckTool.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LZGridViewCheckTool/LZGridViewCheckTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LZGridViewCheckTool/LZGridViewCheckTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LZGridViewCheckTool/LZGridViewCheckTool.modulemap";
+				PRODUCT_MODULE_NAME = LZGridViewCheckTool;
+				PRODUCT_NAME = LZGridViewCheckTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		54BBDDACB320EAA3BD563967B4ED6D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6838214FFE4F4BE5125802A923FD9EB6 /* Pods-LZGridViewCheckTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LZGridViewCheckTool_Tests/Pods-LZGridViewCheckTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LZGridViewCheckTool_Tests/Pods-LZGridViewCheckTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		85A253C593CA74F336325530FD6D40F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A9EB29FA9DD3FEE09585BD1D14BE57 /* Pods-LZGridViewCheckTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LZGridViewCheckTool_Example/Pods-LZGridViewCheckTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LZGridViewCheckTool_Example/Pods-LZGridViewCheckTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C58E8BC4242C3C3095E6C598D6C434E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E656881FD1F41C72EEF060865AD71262 /* LZGridViewCheckTool.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LZGridViewCheckTool/LZGridViewCheckTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LZGridViewCheckTool/LZGridViewCheckTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LZGridViewCheckTool/LZGridViewCheckTool.modulemap";
+				PRODUCT_MODULE_NAME = LZGridViewCheckTool;
+				PRODUCT_NAME = LZGridViewCheckTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6F7E960BCAED84EC8B5A4887310334C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF151710E73C23D4FB1C7F7FFED697D /* Pods-LZGridViewCheckTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LZGridViewCheckTool_Tests/Pods-LZGridViewCheckTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LZGridViewCheckTool_Tests/Pods-LZGridViewCheckTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E32E51F13A21DA81E36C8388AF6238 /* Build configuration list for PBXNativeTarget "Pods-LZGridViewCheckTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E143F07E9C35E0E6511F9F51B0986A /* Debug */,
+				85A253C593CA74F336325530FD6D40F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7530B581C7B95B0369A18ED0637A7DB /* Build configuration list for PBXNativeTarget "LZGridViewCheckTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F573B91C160ACD4A9A5EFF0D8B8E46 /* Debug */,
+				C58E8BC4242C3C3095E6C598D6C434E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6A45FB26A010D23E8DE65F9CA0DB71 /* Build configuration list for PBXNativeTarget "Pods-LZGridViewCheckTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BBDDACB320EAA3BD563967B4ED6D74 /* Debug */,
+				C6F7E960BCAED84EC8B5A4887310334C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
