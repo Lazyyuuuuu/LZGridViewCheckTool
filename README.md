@@ -7,12 +7,11 @@ A tool for desingers to check grid views
 
 CocoaPods:
 
-pod 'LZGridViewCheckTool', '~> 0.1.0'
+pod 'LZGridViewCheckTool', '~> 0.1.2'
 
 
 
 ## Example
 
-![](/Users/lazyyuuuuu/Documents/Projects/iOS/LZGridViewCheckTool/Resources/1.png)
+<img src="./Resources/1.png" style="zoom:50%"><img src="./Resources/2.png" style="zoom:50%">
 
-![](/Users/lazyyuuuuu/Documents/Projects/iOS/LZGridViewCheckTool/Resources/2.png)
